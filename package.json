@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --config config/webpack/dev",
     "build": "webpack --config config/webpack/prod",
     "test": "karma start config/karma/test.js",
-    "deploy": "npm run build && mv public/index.html public/200.html; surge public gainful-clock.surge.sh && mv public/200.html public/index.html"
+    "deploy": "npm run build && mv public/index.html public/200.html; surge public mainzer-garden.surge.sh && mv public/200.html public/index.html"
   },
   "author": "",
   "license": "ISC",
