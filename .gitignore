@@ -1,0 +1,10 @@
+# npm files
+node_modules
+npm-debug.log
+
+# build results
+public/js
+public/css
+
+# coverage data
+coverage

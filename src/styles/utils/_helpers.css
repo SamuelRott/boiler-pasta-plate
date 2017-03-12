@@ -1,0 +1,23 @@
+@define-extend full-screen
+{
+    position:                   fixed;
+    top:                        0;
+    right:                      0;
+    bottom:                     0;
+    left:                       0;
+}
+
+
+@define-extend flex
+{
+    display:                    flex;
+    flex-direction:             column;
+    flex-shrink:                0;
+    align-items:                stretch;
+    align-content:              flex-start;
+    box-sizing:                 border-box;
+    border:                     0 solid black;
+    margin:                     0;
+    padding:                    0;
+    min-width:                  0;
+}
