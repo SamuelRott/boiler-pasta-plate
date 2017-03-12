@@ -4,6 +4,7 @@ import { Router, Route, browserHistory, IndexRoute } from 'react-router';
 
 import App from 'app/components/App';
 import OverviewPage from 'app/components/OverviewPage';
+import GardenPage from 'app/components/GardenPage';
 import ProjectDetail from 'app/components/ProjectDetail';
 
 import 'app/styles/index.css';
@@ -18,6 +19,7 @@ export default function main( container )
 
         <Router history={ browserHistory }>
             <Route path="/" component={App}/>
+            <Route path="/garden" component={GardenPage}/>
             <Route path="/projects" component={OverviewPage}/>
             <Route path="/project/:projectId" component={ProjectDetail}/>
 

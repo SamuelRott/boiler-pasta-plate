@@ -5,6 +5,7 @@ import { Link } from 'react-router';
 
 
 import OverviewPage from 'app/components/OverviewPage';
+import GardenPage from 'app/components/GardenPage';
 
 
 
@@ -18,6 +19,7 @@ class App extends React.Component
       return (
   			<div className="App">
   			  <h1><Link to="/projects">Overview</Link></h1>
+          <h1><Link to="/garden">Garden</Link></h1>
   			</div>
       );
     }
