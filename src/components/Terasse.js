@@ -1,5 +1,5 @@
 import React  from 'react';
-
+import { Link } from 'react-router';
 
 
 export default function Terasse( props )
@@ -9,31 +9,30 @@ export default function Terasse( props )
         <div className="Container">
 					<div className="TerasseFloor" title="the entire terasse floor">
 						<div className="BlackFlowerBox" title="Black flower box, a part of it is garlic, the rest is indeterminated">
-							<div className="Goji" title="Goji tree">
+							<Link className="Goji" title="Goji tree" to={`/plant/goji`}></Link>
 
-							</div>
-							<div className="Rose" title="Rose">
+							<Link className="Rose" title="Rose" to={`/plant/dwarfrose`}>
 
-							</div>
-							<div className="Garlic" title="Garlic">
+							</Link>
+							<Link className="Garlic" title="Garlic" to={`/plant/garlic`}>
 
-							</div>
+							</Link>
 						</div>
 						<div className="OrangeFlowerBox" title="orange flower box dedicated to mint">
-							<div className="Mint" title="Mint">
+							<Link className="Mint" title="Mint" to={`/plant/mint`}>
 
-							</div>
+							</Link>
 						</div>
 						<div className="WoodenFlowerBox" title="long wooden box, empty for now">
-							<div className="Tomato" title="Tomato">
+							<Link className="Tomato" title="Tomato" to={`/plant/tomato`}>
 
-							</div>
-							<div className="Salad" title="Salad">
+							</Link>
+							<Link className="Salad" title="Salad" to={`/plant/salad`}>
 
-							</div>
-							<div className="Tomato" title="Tomato">
+							</Link>
+							<Link className="Tomato" title="Tomato" to={`/plant/tomato`}>
 
-							</div>
+							</Link>
 						</div>
 						<div className="Pillar" title="Beton pillar">
 
