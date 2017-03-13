@@ -1,5 +1,5 @@
 const serverConstants = {
-	hostname: 'https://boilerplate-backend-xcskoxfrvj.now.sh/'
+	hostname: 'https://boilerplate-backend-morxfpzdug.now.sh/'
 }
 
 
