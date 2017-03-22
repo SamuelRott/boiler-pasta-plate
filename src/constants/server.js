@@ -1,5 +1,6 @@
 const serverConstants = {
-	hostname: 'https://boilerplate-backend-morxfpzdug.now.sh/'
+	hostname: 'https://boilerplate-backend-morxfpzdug.now.sh/',
+	apiEndpoint: 'https://r4-api.now.sh/v1'
 }
 
 
