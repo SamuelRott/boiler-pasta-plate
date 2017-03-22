@@ -1,12 +1,11 @@
 import React       from 'react';
 import map from 'lodash/map';
 import fetch from  'isomorphic-fetch';
-import Terasse from 'app/components/Terasse';
-import PlantsList from 'app/components/PlantsList';
+import Fibonaci from 'app/components/pattern/Fibonaci';
 
 import serverConstants from 'app/constants/server';
 
-class GardenPage extends React.Component
+class PatternPage extends React.Component
 {
 
 
@@ -17,8 +16,7 @@ class GardenPage extends React.Component
 
       return (
   			<div>
-          <Terasse/>
-					<PlantsList/>
+          <Fibonaci/>
   			</div>
       );
     }
@@ -27,4 +25,4 @@ class GardenPage extends React.Component
 
 
 
-export default ( GardenPage );
+export default ( PatternPage );
