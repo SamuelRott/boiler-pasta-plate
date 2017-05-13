@@ -1,7 +1,6 @@
 import React       from 'react';
 import map from 'lodash/map';
 import fetch from  'isomorphic-fetch';
-import ProjectTeaser from 'app/components/ProjectTeaser';
 
 import serverConstants from 'app/constants/server';
 
