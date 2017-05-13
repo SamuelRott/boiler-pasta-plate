@@ -11,7 +11,6 @@ class App extends React.Component
 		{
       return (
 				<div className="App">
-					<h1><Link to="/pattern">Pattern</Link></h1>
           <h1><Link to="/garden">Garden</Link></h1>
 				</div>
       );
